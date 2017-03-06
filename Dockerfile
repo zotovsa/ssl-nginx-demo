@@ -6,4 +6,4 @@ COPY nginx.key /etc/nginx
 RUN chgrp -R 0 /etc && chmod -R g+rwX /etc
 RUN chgrp -R 0 /var && chmod -R g+rwX /var
 EXPOSE 80 443
-USER 0
+USER 1
